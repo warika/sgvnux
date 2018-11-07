@@ -12,7 +12,7 @@
           <div class="col-lg-4 col-md-4 text-left pt-3 text-center ">
             <h5 class="mb-2 text-light" >please visit :</h5>
             <a v-for="(item, i) in items" class="mr-3" :key="i">
-              <v-social :type="item.icon" :link="true"></v-social>
+              <VSocial :type="item.icon" :link="true"></VSocial>
             </a>
           </div>
         </div>

@@ -4,7 +4,7 @@
       <b-col md="6" v-for="(group, i) in groups" :key="i">
         <b-card no-body class="mb-1">
           <b-card-header header-tag="header" class="p-1" role="tab">
-            <b-btn block href="#" v-b-toggle.accordion1 variant="info">{{group.name}}</b-btn>
+            <b-btn block href="#" v-b-toggle.accordion1 variant="info">{{group.thainame}}</b-btn>
           </b-card-header>
 
           <b-card-body>
@@ -14,7 +14,7 @@
               </b-col >
               <b-col md="6" xs="12">
                 <div >
-                  <small>{{group.description}}</small>
+                  <small>{{group.thaidescription}}</small>
                 </div>
               </b-col>
             </b-row>

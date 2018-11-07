@@ -6,13 +6,12 @@ const createStore = () => {
       groups: [
         {
           name:'Aluminium Tile Trim',
+          thainame:'คิ้วขอบกระเบื้องอลูมิเนียม',
           description:' Success Aluminum tile trim is used to decorate the tile edge for an elegance look and prevent cracking at the connecting joints. Very durable and long lasting.  ',
+          thaidescription:' คิ้วอลูมิเนียม SUCCESS ใช้สำหรับงานตบแต่งขอบกระเบื้อง ให้มีความสวยงาม และป้องกันการแตกร้าวของรอยต่อขอ กระเบื้อง มีอายุการใช้งานยาวนาน เหมาะสำหรับ งานภายนอกและภายในอาคาร ที่ต้องการความหรูหราและคงทนถาวร ',
           images: {
             slides: [
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FB20.png?alt=media&token=de8faf3c-e821-4da5-8009-8c1d386b324d', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FB20DRAWING.png?alt=media&token=8676c7f3-0590-411c-842c-974c8b1e99b0', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FB60.png?alt=media&token=87f82688-a889-406b-b768-4ad331a68f38', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FB60DRAWING.png?alt=media&token=09b22fba-b3c8-481c-afc4-c0ecf1a2a1b5', text: ''}
+              {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/B20.jpg', text: ''},
             ]
           },
           lengths: ['2000'],
@@ -59,13 +58,12 @@ const createStore = () => {
         //al stair
         {
           name:'Aluminium Stair Nosing',
+          thainame:'จมูกบันไดอลูมิเนียม',
           description:'Aluminum stair nosing is used with common classical stairs. It is durable and resistant to sunlight. Suitable for both internal and external use, for those wanting a luxurious look. This is a very popular product.',
+          thaidescription:'จมูกบันไดอลูมิเนียม ใช้กับบันไดทั่วไปที่เน้นความคลาสสิค คงทนถาวร ทนทุกสภาพ ไม่ว่าจะเป็นแสงแดดเหมาะสำหรับงานภายในและภายนอกที่ต้องการความหรูหรา เป็นสินค้าที่ได้รับความนิยมมาก',
           images: {
             slides: [
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU).png?alt=media&token=8dffc53c-3fc4-480f-971c-2933ba17623f', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU)DRAWING.png?alt=media&token=4d9e33f0-1b88-47ef-85a9-c4090360e271', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU).png?alt=media&token=97d46762-6538-4afd-acb2-ba1c8a5a1f64', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU)DRAWING.png?alt=media&token=88f0e6b2-2d60-43f5-bff0-28ed995ac16f', text: ''}
+              {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/L50(ALU).jpg', text: ''}
             ]
           },
           lengths: ['2000, 2500'],
@@ -109,16 +107,15 @@ const createStore = () => {
             }
           ]
         },
-        //PVC & UPV Tile Trim
+        //PVC  Tile Trim
         {
           name:'PVC Tile Trim',
+          thainame:'คิ้วขอบกระเบื้อง PVC',
           description:' SUCCESS in a leading supplier of Grade A PVC tile trim that are finished in a stunning, beautiful ,and used for interior edge tiles. Tile trim is used to prevent cracking between connecting tiles and is available in 2 type which are 1. un-coating model G30, D30, F40 ,and W60. 2.super UV coating Model This model is more shinny than the un-coating. U30,U40,U60 ,and UCD.',
+          thaidescription:'SUCCESS เป็นผู้นำด้านคิ้วพีวีซีใช้สำหรับตขอบกระเบื้องให้มีความสวยงาม และป้องกันการแตกร้าวของรอยต่อขอบกระเบื้อง คิ้วแบบไม่เคลือบ UV ลักษณะเป็นคิ้วผิวด้าน ราคาประหยัดกว่าแบบเคลือบ ได้แก่ สินค้ารุ่น G30, D30, F40, และ W60',
           images: {
             slides: [
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FG30.png?alt=media&token=f853b401-cc6d-47be-ac38-a68e84332ff3', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU)DRAWING.png?alt=media&token=4d9e33f0-1b88-47ef-85a9-c4090360e271', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU).png?alt=media&token=97d46762-6538-4afd-acb2-ba1c8a5a1f64', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU)DRAWING.png?alt=media&token=88f0e6b2-2d60-43f5-bff0-28ed995ac16f', text: ''}
+              {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/G30.jpg', text: ''}
             ]
           },
           lengths: ['2000'],
@@ -203,13 +200,13 @@ const createStore = () => {
         //upvc
         {
         name:'UPVC Tile Trim',
+        thainame:'คิ้วขอบกระเบื้อง PVC เคลือบเงา',
         description:' SUCCESS in a leading supplier of Grade A PVC tile trim that are finished in a stunning, beautiful ,and used for interior edge tiles. Tile trim is used to prevent cracking between connecting tiles and is available in 2 type which are 1. un-coating model G30, D30, F40 ,and W60. 2.super UV coating Model This model is more shinny than the un-coating. U30,U40,U60 ,and UCD.',
+        thaidescription:'SUCCESS เป็นผู้นำด้านคิ้วพีวีซีใช้สำหรับตขอบกระเบื้องให้มีความสวยงาม และป้องกันการแตกร้าวของรอยต่อขอบกระเบื้อง  คิ้วแบบเคลือบ UV เป็นนวัตกรรมการเคลือบผิวด้วยแสงอัลตร้าไวโอเลต ผิวมีความมันวาว ทั้งยังไม่เกิดคราบเชื้อรา ได้แก่ สินค้ารุ่น U30, U40, U60 และ UCD',
         images: {
           slides: [
-            {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FG30.png?alt=media&token=f853b401-cc6d-47be-ac38-a68e84332ff3', text: ''},
-            {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU)DRAWING.png?alt=media&token=4d9e33f0-1b88-47ef-85a9-c4090360e271', text: ''},
-            {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU).png?alt=media&token=97d46762-6538-4afd-acb2-ba1c8a5a1f64', text: ''},
-            {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU)DRAWING.png?alt=media&token=88f0e6b2-2d60-43f5-bff0-28ed995ac16f', text: ''}
+            {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/U40.jpg', text: ''}
+
           ]
         },
         lengths: ['2000'],
@@ -292,13 +289,13 @@ const createStore = () => {
         // PVC Stair nosing
         {
           name:'PVC Stair Nosing',
+          thainame:'จมูกบันได PVC',
           description:' Made from Grade A PVC material, durable and flexible, shiny and glossy finish. Easy to clean once installed. Available in many sizes.Stair nosing, especially in commercial and industrial settings, is typically fitted with a non-slip surface to increase traction and prevent injury or even death from slips, trips, and falls.',
+          thaidescription:' ผลิตจาก PVC เกรด A ใช้เผื่อปิดขอบบันได ป้องกันไม่ให้ขอบบันไดบิ่น หรือ แตก ทั้งช่วยป้องกันการลื่น และสะดุดล้มในขณะขึ้นลง บันได  เป็นผลิตภัณฑ์มีความคงทนและยืดหยุ่นสูง ชิ้นงานเงางาม ทำความสะอาดง่ายเมื่อติดตั้งเสร็จ มีหลายขนาดให้เลือกใช้ ',
           images: {
             slides: [
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FG30.png?alt=media&token=f853b401-cc6d-47be-ac38-a68e84332ff3', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU)DRAWING.png?alt=media&token=4d9e33f0-1b88-47ef-85a9-c4090360e271', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU).png?alt=media&token=97d46762-6538-4afd-acb2-ba1c8a5a1f64', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU)DRAWING.png?alt=media&token=88f0e6b2-2d60-43f5-bff0-28ed995ac16f', text: ''}
+              {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/L38.jpg', text: ''}
+
             ]
           },
           lengths: ['1000','1250','2000','2500'],
@@ -431,13 +428,13 @@ const createStore = () => {
         //pvc skirting board
         {
           name:'PVC Skirting Board',
+          thainame:'บัวเชิงผนัง PVC',
           description:'  Our skirting board is made from PVC. you need to remember all the accessories to finish off the job properly and make sure your floor looks the best it can. Skirting boards are the strips that sit at the bottom of your walls, on the edges of the flooring to tidy it up and protect the walls and the laminated tile trim also made your laminated floor and digital printing tile to be united.',
+          thaidescription:'บัวเชิงผนัง สามารถติดตั้งง่ายด้วยกาวตะปู มีทั้งแบบสีพื้น ราคาประหยัด และแบบเคลือบลามิเนตลายไม้',
           images: {
             slides: [
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU).png?alt=media&token=8dffc53c-3fc4-480f-971c-2933ba17623f', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU)DRAWING.png?alt=media&token=4d9e33f0-1b88-47ef-85a9-c4090360e271', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU).png?alt=media&token=97d46762-6538-4afd-acb2-ba1c8a5a1f64', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU)DRAWING.png?alt=media&token=88f0e6b2-2d60-43f5-bff0-28ed995ac16f', text: ''}
+              {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/BUL.jpg', text: ''}
+
             ]
           },
           lengths: ['2000','3000'],
@@ -480,13 +477,13 @@ const createStore = () => {
         //pvc groove
         {
           name:'PVC Groove',
+          thainame:'เซาะร่อง PVC',
           description:'Made from grade A PVC for achieving more beautiful straight line than grooving by hand can. Prevents cracking between ceilings and concreate beans every 4 or 6 meters. Surface can be painted on. Resistant to flexibility',
+          thaidescription:'    เซาะร่อง เป็นผลิตภัณฑ์ พีวีซี เกรด A ช่วยให้ร่องที่มีแนวตรง สวยงามกว่าการเซาะร่องด้วยมือ ช่วยป้องกันการแตกร้าวของปูนใต้คานทุกๆ ช่อง 4 เมตร หรือ 6 เมตร  สามารถใช้สีทาทับที่ชิ้นงานได้ ทนความยืดหยุ่นได้ดี',
           images: {
             slides: [
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU).png?alt=media&token=8dffc53c-3fc4-480f-971c-2933ba17623f', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU)DRAWING.png?alt=media&token=4d9e33f0-1b88-47ef-85a9-c4090360e271', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU).png?alt=media&token=97d46762-6538-4afd-acb2-ba1c8a5a1f64', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU)DRAWING.png?alt=media&token=88f0e6b2-2d60-43f5-bff0-28ed995ac16f', text: ''}
+              {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/JC.jpg', text: ''},
+
             ]
           },
           lengths: ['2000'],
@@ -597,13 +594,13 @@ const createStore = () => {
         //pvc corner bead
         {
           name:'PVC Corner Bead',
+          thainame:'เซี้ยม PVC',
           description:'Success PVC corner bead are flexible and highly durable. Use to maintain a straight plaster line, speed up the construction speed, improve project quality.',
+          thaidescription:'       เซี้ยม พีวีซี SUCCESS เป็นผลิตภัณฑ์ที่มีความยืดหยุ่นและคงทนสูง ใช้ในงานจับมุมแนวฉาบปูนเพื่อให้ได้แนวตรง และฉาบปูนเรียบที่สวยงาม (ประหยัดปูนในการฉาบ) ประหยัดเวลาทำงาน และช่วยลดต้นทุนงาน',
           images: {
             slides: [
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU).png?alt=media&token=8dffc53c-3fc4-480f-971c-2933ba17623f', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU)DRAWING.png?alt=media&token=4d9e33f0-1b88-47ef-85a9-c4090360e271', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU).png?alt=media&token=97d46762-6538-4afd-acb2-ba1c8a5a1f64', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU)DRAWING.png?alt=media&token=88f0e6b2-2d60-43f5-bff0-28ed995ac16f', text: ''}
+              {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/CT6.jpg', text: ''},
+
             ]
           },
           lengths: ['2000, 2500','2700'],
@@ -650,13 +647,13 @@ const createStore = () => {
         //pvc chamfer
         {
           name:'PVC Chamfer',
+          thainame:'สามเหลี่ยมลบมุม PVC',
           description:' PVC Chamfer is used in construction work to reduce corners of concrete columns/posts and the corner of footpaths and embankments. It also can be used instead of wood triangles.',
+          thaidescription:' สามเหลี่ยมลบมุม  เป็นผลิตภัณฑ์ที่ใช้ในการก่อสร้าง เช่น งานลบมุมเสา งานแนวขอบทางเท้า คันทางถนน สามารถตอกตะปูและติดกาวยางหรือกาวร้อนที่แนบไม้ได้ งานที่ออกมาจะได้มุมสวยกว่าไม้สามเหลี่ยมธรรมดา ใช้งานได้หลายครั้งกว่าไม้สามเหลี่ยม  .ลดต้นทุนในด้านวัสดุ และเวลาการทำงาน',
           images: {
             slides: [
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU).png?alt=media&token=8dffc53c-3fc4-480f-971c-2933ba17623f', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU)DRAWING.png?alt=media&token=4d9e33f0-1b88-47ef-85a9-c4090360e271', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU).png?alt=media&token=97d46762-6538-4afd-acb2-ba1c8a5a1f64', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU)DRAWING.png?alt=media&token=88f0e6b2-2d60-43f5-bff0-28ed995ac16f', text: ''}
+              {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/CF.jpg', text: ''},
+
             ]
           },
           lengths: ['2000'],
@@ -715,13 +712,13 @@ const createStore = () => {
         //pvc multi purpose matt
         {
           name:'PVC Multipurpose Mat',
+          thainame:'แผ่นกันลื่แผ่นกันลื่นเอนกประสงค์',
           description:' PVC Multipurpose Mat is made from grade A materials are available for all area such as bathrooms, kitchen floors, balconies, garden and swimming pools, to reduce the occurrence of accidental falls especially among children and elderly.    ',
+          thaidescription:'แผ่นกันลื่นเอนกประสงค์ ลดอันตรายของพื้นผิวที่เปียก วางมุมในก็สวยงามโดดเด่น เช่น ห้องน้ำ หน้องครัว เฉลียงบ้าน แต่งมุมสวยในสวน สนามหญ้า สระว่ายน้ำ ช่วยลดอุบัติเหตุโดยเฉพาะในเด็กและผู้สูงอายุ',
           images: {
             slides: [
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU).png?alt=media&token=8dffc53c-3fc4-480f-971c-2933ba17623f', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU)DRAWING.png?alt=media&token=4d9e33f0-1b88-47ef-85a9-c4090360e271', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU).png?alt=media&token=97d46762-6538-4afd-acb2-ba1c8a5a1f64', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU)DRAWING.png?alt=media&token=88f0e6b2-2d60-43f5-bff0-28ed995ac16f', text: ''}
+              {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/SM.jpg', text: ''},
+
             ]
           },
 
@@ -764,13 +761,13 @@ const createStore = () => {
         //TD
         {
           name:'TD Wire Way',
+          thainame:'รางสายไฟ TD',
           description:' ',
+          thaidescription:'สำหรับใช้เก็บรวบรวม สายโทรศัพท์ สายไฟ หรืออุปกรณ์อิเล็กทรอนิกส์ต่างๆ ลักษณะทรงสี่เหลี่ยม สามารถเดินตามขอบมุมผนัง ทั้งด้านบนและล่าง',
           images: {
             slides: [
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU).png?alt=media&token=8dffc53c-3fc4-480f-971c-2933ba17623f', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU)DRAWING.png?alt=media&token=4d9e33f0-1b88-47ef-85a9-c4090360e271', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU).png?alt=media&token=97d46762-6538-4afd-acb2-ba1c8a5a1f64', text: ''},
-              {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU)DRAWING.png?alt=media&token=88f0e6b2-2d60-43f5-bff0-28ed995ac16f', text: ''}
+              {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/TD.jpg', text: ''},
+
             ]
           },
           lengths: ['2000'],
@@ -841,13 +838,13 @@ const createStore = () => {
         // ETM WIREWAY
         {
             name:'ETM Wire Way',
+            thainame:'รางสายไฟ ETM',
             description:' ',
+            thaidescription:'สำหรับใช้เก็บรวบรวม สายโทรศัพท์ สายไฟ หรืออุปกรณ์อิเล็กทรอนิกส์ต่างๆ ลักษณะทรสี่เหลี่ยม สามารถเดินตามขอบมุมผนัง ทั้งด้านบนและล่าง รางไฟลักษณะพิเศษแบ่งได้สองช่อง สามารถแบ่งหมวดหมู่ตามประเภทสายได้ ',
             images: {
               slides: [
-                {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU).png?alt=media&token=8dffc53c-3fc4-480f-971c-2933ba17623f', text: ''},
-                {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU)DRAWING.png?alt=media&token=4d9e33f0-1b88-47ef-85a9-c4090360e271', text: ''},
-                {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU).png?alt=media&token=97d46762-6538-4afd-acb2-ba1c8a5a1f64', text: ''},
-                {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU)DRAWING.png?alt=media&token=88f0e6b2-2d60-43f5-bff0-28ed995ac16f', text: ''}
+                {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/ETM.jpg', text: ''},
+
                 ]
               },
             lengths: ['2000'],
@@ -906,13 +903,13 @@ const createStore = () => {
         //etd
         {
             name:'ETD Wire Duct',
+            thainame:'รางสายไฟ ETD',
             description:' ',
+            thaidescription:'รางเก็บสายไฟทรงสี่เหลี่ยม ด้านข้างมีรูโปร่ง แบ่งย่อยเป็นช่องๆ เพื่อความสะดวกในการแยกสายเข้าตามจุดต่างๆ ในการใช้งาน เหมาะสำหรับเดินสายไฟที่ต้องใช้แยกตามจุดต่างๆ หลายจุด ',
             images: {
               slides: [
-                {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU).png?alt=media&token=8dffc53c-3fc4-480f-971c-2933ba17623f', text: ''},
-                {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU)DRAWING.png?alt=media&token=4d9e33f0-1b88-47ef-85a9-c4090360e271', text: ''},
-                {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU).png?alt=media&token=97d46762-6538-4afd-acb2-ba1c8a5a1f64', text: ''},
-                {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU)DRAWING.png?alt=media&token=88f0e6b2-2d60-43f5-bff0-28ed995ac16f', text: ''}
+                {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/ETD.jpg', text: ''},
+
               ]
             },
             lengths: ['2000'],
@@ -1004,13 +1001,13 @@ const createStore = () => {
         //ETB
         {
             name:'ETB Wire Way',
+            thainame:'รางสายไฟ ETB',
             description:' ',
+            thaidescription:'สำหรับใช้เก็บรวบรวม สายโทรศัพท์ สายไฟ หรืออุปกรณ์อิเล็กทรอนิกส์ต่างๆ ลักษณะทรสี่เหลี่ยม ติดตั้งตามขอบมุมผนังได้',
             images: {
               slides: [
-                {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU).png?alt=media&token=8dffc53c-3fc4-480f-971c-2933ba17623f', text: ''},
-                {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL38(ALU)DRAWING.png?alt=media&token=4d9e33f0-1b88-47ef-85a9-c4090360e271', text: ''},
-                {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU).png?alt=media&token=97d46762-6538-4afd-acb2-ba1c8a5a1f64', text: ''},
-                {src: 'https://firebasestorage.googleapis.com/v0/b/sgvwebsite.appspot.com/o/productlist%2FL50(ALU)DRAWING.png?alt=media&token=88f0e6b2-2d60-43f5-bff0-28ed995ac16f', text: ''}
+                {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/ETB.jpg', text: ''},
+
               ]
             },
             lengths: ['2000'],

@@ -1,6 +1,6 @@
 <template lang="html">
   <b-container>
-    <v-header title="Product" subtitle="Make Your Home Better ."></v-header>
+    <b-img src="https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/ourproduct.jpg" fluid-grow alt="Fluid-Grow image" />
     <ProductGroupTabs></ProductGroupTabs>
  </b-container>
 </template>

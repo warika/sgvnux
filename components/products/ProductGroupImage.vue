@@ -1,6 +1,7 @@
 <template lang="html">
   <div class="">
-    <v-swipe :images="images" class="img-responsive"></v-swipe>
+    <img :src="images[0].src" height="180" width="200">
+    <!-- <v-swipe :images="images" class="img-responsive" width="50px" ></v-swipe> -->
   </div>
 </template>
 

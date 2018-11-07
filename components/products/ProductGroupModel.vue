@@ -8,11 +8,11 @@
           <table class="table">
             <thead>
               <tr>
-                <th>Model</th>
-                <th>Size(mm)</th>
-                <th>Length(mm)</th>
-                <th>Pack</th>
-                <th>Color</th>
+                <th>รุ่น</th>
+                <th>ค.กว้างXค.สูง(mm)</th>
+                <th>ค.ยาว(mm)</th>
+                <th>ขนาดบรรจุ</th>
+                <th>สี</th>
               </tr>
             </thead>
             <tbody>

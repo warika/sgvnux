@@ -1,13 +1,17 @@
 <template lang="html">
   <div class="body container ">
-    <h5 class="text-center ">Quality control equipments</h5><br>
+    <h4 class="text-center">Quality control equipments</h4><br>
+    <p>สินค้าทุกชิ้นของบริษัท ทรัพย์ฏังวาล จำกัด ถูกออกแบบมาตามความต้องการของผู้ใช้งาน ทางเราเชื่อมั้น
+       เสมอว่าสินค้าที่มีคุณภาพ และ การบริการ ที่เยี่ยมยอดนั้นสร้างความพึงพอใจให้กับลูกค้าอย่างสูงสุด
+       บริษัทของเรามีการนำเครื่องมือตรวจสอบคุณภาพพลาสติกเพื่อลดปัญหาพลาสติกด้อยคุณภาพ ก่อนถึงมือผู้ใช้งาน
+    </p>
      <p> We must be obsessive about understanding our customers'wants and needs and we create products and sevices that
      satisfy their demand. In Supgangvarl, we believe in providing the best quality products for our customers,
      we have our inspection equipment for make sure that our product is durable and long lasting. </p>
     <b-row align-h="center">
       <b-col v-for="(quality, i) in qualities" class="gallery text-center" :key="i">
         <img class="wrapper card card__one " :src="quality.image">
-        <h6 class="info">{{quality.text}}</h6>
+        <h6 class="info">{{quality.thai}}</h6>
 
       </b-col>
     </b-row >
@@ -22,10 +26,10 @@ export default {
   data(){
     return{
       qualities:[
-        {text:'Tensile Testing ', image:'img/quality/q1h.jpg'},
-        {text:'Impact Testing', image:'img/quality/q2h.jpg'},
-        {text:'Density Testing ', image:'img/quality/q3h.jpg'},
-        {text:'Hardness Testing', image:'img/quality/q4h.jpg'}
+        {thai:'การทดสอบการดึง', text:'Tensile Testing ', image:'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/q1h.jpg'},
+        {thai:'การทดสอบแรงกระแทก',text:'Impact Testing', image:'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/q2h.jpg'},
+        {thai:'การทดสอบความหนาแน่น',text:'Density Testing ', image:'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/q3h.jpg'},
+        {thai:'การทดสอบความแข็ง',text:'Hardness Testing', image:'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/q4h.jpg'}
 
       ]
     }

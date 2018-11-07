@@ -1,10 +1,10 @@
 <template lang="html">
   <div class="container">
     <div class="body1 ">
-      <b-img src="img/about/about4.jpg" fluid-grow alt="Fluid-Grow image" />
+      <b-img src="https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/ourdetail.jpg" fluid-grow alt="Fluid-Grow image" />
     </div>
-    <VAboutTop></VAboutTop>
-    <VAboutMiddle></VAboutMiddle>
+    <VAboutTop class="mt-2"></VAboutTop>
+    <VAboutMiddle class="mt-2"></VAboutMiddle>
   </div>
 </template>
 
