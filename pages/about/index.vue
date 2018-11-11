@@ -1,12 +1,20 @@
 <template lang="html">
-  <div class="container">
-    <div class="body1 ">
-      <b-img src="https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/ourdetail.jpg" fluid-grow alt="Fluid-Grow image" />
-    </div>
-    <VAboutTop class="mt-2"></VAboutTop>
-    <VAboutMiddle class="mt-2"></VAboutMiddle>
-  </div>
+
+<b-container>
+  <b-img
+  class="d-none d-md-block mb-3"
+  src="https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/header/headabout.jpg"
+  fluid-grow alt="Fluid-Grow image" />
+
+<VAboutTop class="mt-2"></VAboutTop>
+<VAboutMiddle class="mt-2"></VAboutMiddle>
+</b-container>
+
+
+
+
 </template>
+
 
 <script>
 import VAboutTop from '@/components/abouts/VAboutTop.vue'

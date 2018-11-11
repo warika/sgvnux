@@ -19,9 +19,9 @@
               </b-col>
             </b-row>
             <b-row>
-              <div class="col-lg-12 col-md-12 col-xs-12 mb-2">
+              <b-col lg="12" md="12"  xs="12" class="mb-2">
                 <ProductGroupModel :models="group.models"></ProductGroupModel>
-              </div>
+              </b-col>
             </b-row>
           </b-card-body>
         </b-card>

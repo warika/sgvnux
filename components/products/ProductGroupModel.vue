@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import ProductGroupModelDetail from './ProductGroupModelDetail.vue'
+
 
 export default {
   props: ['models'],
@@ -43,7 +43,7 @@ export default {
     return {}
   },
   components: {
-    ProductGroupModelDetail
+  
   }
 }
 </script>

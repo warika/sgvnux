@@ -12,11 +12,17 @@
     "deploy": "cd sgvnux; git pull; sudo pm2 stop sgvnuxt; npm run build; sudo pm2 reload sgvnuxt; cd .."
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^1.2.8",
+    "@fortawesome/free-brands-svg-icons": "^5.5.0",
+    "@fortawesome/free-solid-svg-icons": "^5.5.0",
+    "@fortawesome/vue-fontawesome": "^0.1.2",
+    "@nuxtjs/axios": "^5.0.0",
+    "bootstrap": "^4.1.3",
+    "bootstrap-vue": "^2.0.0-beta",
     "cross-env": "^5.2.0",
     "nuxt": "^2.0.0",
-    "bootstrap-vue": "^2.0.0-beta",
-    "bootstrap": "^4.1.3",
-    "@nuxtjs/axios": "^5.0.0"
+    "nuxt-fontawesome": "^0.3.0"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"

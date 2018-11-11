@@ -27,6 +27,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    '~/assets/main.css'
   ],
 
   /*
@@ -42,8 +43,24 @@ module.exports = {
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
     // Doc: https://bootstrap-vue.js.org/docs/
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
+    'nuxt-fontawesome'
   ],
+
+  fontawesome: {
+    component: 'fa',
+    imports: [
+      //import whole set
+      {
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['fas']
+      },
+      {
+        set: '@fortawesome/free-brands-svg-icons',
+        icons: ['fab']
+      }
+    ]
+  },
   /*
   ** Axios module configuration
   */
@@ -59,7 +76,7 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
+
     }
   }
 }

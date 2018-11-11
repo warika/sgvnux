@@ -1,11 +1,14 @@
 <template lang="html">
   <b-container>
-    <b-img src="https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/ourproduct.jpg" fluid-grow alt="Fluid-Grow image" />
-    <ProductGroupTabs></ProductGroupTabs>
- </b-container>
+    <VHome></VHome>
+
+    <!-- <b-img src="https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/ourproduct.jpg" fluid-grow alt="Fluid-Grow image" />
+    <ProductGroupTabs></ProductGroupTabs> -->
+  </b-container>
 </template>
 
 <script>
+import VHome from '@/components/homes/VHome.vue'
 import ProductGroupTabs from '@/components/products/ProductGroupTabs.vue'
 import VHeader from '@/components/shares/VHeader.vue'
 
@@ -16,6 +19,7 @@ export default {
     }
   },
   components: {
+    VHome,
     ProductGroupTabs,
     VHeader
   }

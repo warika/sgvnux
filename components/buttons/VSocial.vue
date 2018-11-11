@@ -1,5 +1,5 @@
 <template lang="html">
-  <i :class="classMap" aria-hidden="true" @click="goto"></i>
+  <fa :icon="iconMap" :class="classMap" @click="goto"/>
 </template>
 
 <script>
@@ -23,23 +23,26 @@ export default {
   data () {
     return{
       items: {
-        info: {icon:'fas fa-info text-success'},
-        image: {icon:'fas fa-image text-success'},
-        line: {icon:'fab fa-line',link:'https://line.me/ti/p/SXYCePOwO9'},
-        facebook: {icon:'fab fa-facebook-f', link:'https://www.facebook.com/Supgangvarl-1350677818365777'},
-        linkedin: {icon:'fab fa-linkedin-in'},
-        instagram: {icon:'fab fa-instagram'},
-        youtube: {icon:'fab fa-youtube', link:'https://www.youtube.com/channel/UCDswY6u3GmYDyhy7Ay3UX9w?view_as=subscriber'},
-        product: {icon:'fas fa-box-open'},
-        telephone: {icon:'fas fa-phone',link:'tel:+66869998382'},
-        home: {icon:'fas fa-home'},
-        location: {icon:'fas fa-map-marker-alt', link:'https://www.google.co.th/maps/place/%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%A9%E0%B8%B1%E0%B8%97+%E0%B8%97%E0%B8%A3%E0%B8%B1%E0%B8%9E%E0%B8%A2%E0%B9%8C%E0%B8%81%E0%B8%B1%E0%B8%87%E0%B8%A7%E0%B8%B2%E0%B8%A5+%E0%B8%88%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%94/@13.5804109,100.6872253,15.17z/data=!4m5!3m4!1s0x0:0x88cfaf3b53448889!8m2!3d13.5810746!4d100.685474'}
+        info: {icon: ['fas', 'info'], class: 'text-success'},
+        image: {icon: ['fas', 'image'], class: 'text-success'},
+        line: {icon: ['fab', 'line'],link:'https://line.me/ti/p/SXYCePOwO9'},
+        facebook: {icon: ['fab', 'facebook-f'], link:'https://www.facebook.com/Supgangvarl-1350677818365777'},
+        linkedin: {icon: ['fab', 'linkedin-in']},
+        instagram: {icon: ['fab', 'instagram']},
+        youtube: {icon: ['fab', 'youtube'], link:'https://www.youtube.com/channel/UCDswY6u3GmYDyhy7Ay3UX9w?view_as=subscriber'},
+        product: {icon: ['fas', 'box-open']},
+        telephone: {icon: ['fas', 'phone'],link:'tel:+66869998382'},
+        home: {icon: ['fas', 'home']},
+        location: {icon: ['fas', 'map-marker-alt'], link:'https://www.google.co.th/maps/place/%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%A9%E0%B8%B1%E0%B8%97+%E0%B8%97%E0%B8%A3%E0%B8%B1%E0%B8%9E%E0%B8%A2%E0%B9%8C%E0%B8%81%E0%B8%B1%E0%B8%87%E0%B8%A7%E0%B8%B2%E0%B8%A5+%E0%B8%88%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%94/@13.5804109,100.6872253,15.17z/data=!4m5!3m4!1s0x0:0x88cfaf3b53448889!8m2!3d13.5810746!4d100.685474'}
       }
     }
   },
   computed: {
+    iconMap () {
+      return this.items[this.type].icon
+    },
     classMap () {
-      return [this.items[this.type].icon, `fa-${this.size}x`].join(' ')
+      return this.items[this.type].class
     }
   },
   methods: {

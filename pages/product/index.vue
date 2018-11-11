@@ -1,11 +1,38 @@
 <template lang="html">
-  <b-container>
+<b-container>
 
-      <b-img src="https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/ourproduct.jpg" fluid-grow alt="Fluid-Grow image" />
+
+
+
+    <!-- <b-card
+    overlay
+    img-src="bgproduct.jpg"
+    img-alt="Card Image"
+    text-variant="black">
+    <b-row style="height:100%;" align-v="end">
+      <b-col class="d-none d-md-block">
+        <b-card text-variant="dark" style="background-color: rgba(255, 255, 255, 0.7);">
+          <h1>
+            OUR PRODUCT
+          </h1>
+        </b-card>
+    </b-col>
+  </b-row>
+  </b-card> -->
+
+
+      <b-img
+      class="d-none d-md-block mb-3"
+      src="https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/header/headproduct.jpg"
+      fluid-grow alt="Fluid-Grow image" />
+
 
     <!-- <v-header title="Product" subtitle="Make Your Home Better ."></v-header> -->
     <ProductGroupTabs></ProductGroupTabs>
- </b-container>
+
+
+
+</b-container>
 </template>
 
 <script>
@@ -26,10 +53,5 @@ export default {
 </script>
 
 <style lang="css" scoped>
-.space{
-
-  margin-top: 10px;
-  margin-bottom: 40px
-}
 
 </style>
