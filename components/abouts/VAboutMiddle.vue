@@ -38,10 +38,10 @@ export default {
         {thai:'เครื่องมือตรวจสอบคุณภาพ'}
       ],
       qualities:[
-        {thai:'การทดสอบการดึง', text:'Tensile Testing ', image:'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/q1h.jpg'},
-        {thai:'การทดสอบแรงกระแทก',text:'Impact Testing', image:'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/q2h.jpg'},
-        {thai:'การทดสอบความหนาแน่น',text:'Density Testing ', image:'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/q3h.jpg'},
-        {thai:'การทดสอบความแข็ง',text:'Hardness Testing', image:'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/q4h.jpg'}
+        {thai:'การทดสอบการดึง', text:'Tensile Testing ', image:'https://assets.sgvthailand.com/supgangvarl/image/productphoto/q1h.jpg'},
+        {thai:'การทดสอบแรงกระแทก',text:'Impact Testing', image:'https://assets.sgvthailand.com/supgangvarl/image/productphoto/q2h.jpg'},
+        {thai:'การทดสอบความหนาแน่น',text:'Density Testing ', image:'https://assets.sgvthailand.com/supgangvarl/image/productphoto/q3h.jpg'},
+        {thai:'การทดสอบความแข็ง',text:'Hardness Testing', image:'https://assets.sgvthailand.com/supgangvarl/image/productphoto/q4h.jpg'}
 
       ]
     }

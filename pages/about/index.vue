@@ -3,7 +3,7 @@
 <b-container>
   <b-img
   class="d-none d-md-block mb-3"
-  src="https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/header/headabout.jpg"
+  src="https://assets.sgvthailand.com/supgangvarl/image/header/headabout.jpg"
   fluid-grow alt="Fluid-Grow image" />
 
 <VAboutTop class="mt-2"></VAboutTop>

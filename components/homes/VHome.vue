@@ -3,7 +3,7 @@
     <b-row class="mb-2">
       <b-col md="12">
         <b-card overlay
-            img-src="https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/home/homebg.jpg"
+            img-src="https://assets.sgvthailand.com/supgangvarl/image/home/homebg.jpg"
             img-alt="Card Image"
             text-variant="white"
             title="SUPGANGVARL"
@@ -14,7 +14,7 @@
 
     <b-row >
       <b-col md="6">
-        <b-img src="https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/home/homesgv.jpg" fluid alt="Fluid image" />
+        <b-img src="https://assets.sgvthailand.com/supgangvarl/image/home/homesgv.jpg" fluid alt="Fluid image" />
       </b-col>
       <b-col md="6">
         <h3 class="mt-3" >{{parttops.thaihead}}</h3>
@@ -36,13 +36,13 @@
       </p>
       </b-col>
       <b-col md="6">
-        <b-img src="https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/home/homecolor.jpg" fluid alt="Fluid image" />
+        <b-img src="https://assets.sgvthailand.com/supgangvarl/image/home/homecolor.jpg" fluid alt="Fluid image" />
       </b-col>
     </b-row>
     <b-row class="mt-3">
       <b-col md="12">
         <a href="https://www.facebook.com/Supgangvarl-1350677818365777">
-        <b-img src="https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/home/homeend.jpg" fluid alt="Fluid image" />
+        <b-img src="https://assets.sgvthailand.com/supgangvarl/image/home/homeend.jpg" fluid alt="Fluid image" />
       </a>
       </b-col>
 

@@ -2,7 +2,7 @@
   <b-container>
     <b-img
     class="d-none d-md-block mb-3"
-    src="https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/header/headcontact.jpg"
+    src="https://assets.sgvthailand.com/supgangvarl/image/header/headcontact.jpg"
     fluid-grow alt="Fluid-Grow image" />
     <VContact></VContact>
 </b-container>

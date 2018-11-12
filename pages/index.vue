@@ -2,7 +2,7 @@
   <b-container>
     <VHome></VHome>
 
-    <!-- <b-img src="https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/ourproduct.jpg" fluid-grow alt="Fluid-Grow image" />
+    <!-- <b-img src="https://assets.sgvthailand.com/supgangvarl/image/productphoto/ourproduct.jpg" fluid-grow alt="Fluid-Grow image" />
     <ProductGroupTabs></ProductGroupTabs> -->
   </b-container>
 </template>

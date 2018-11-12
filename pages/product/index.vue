@@ -23,7 +23,7 @@
 
       <b-img
       class="d-none d-md-block mb-3"
-      src="https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/header/headproduct.jpg"
+      src="https://assets.sgvthailand.com/supgangvarl/image/header/headproduct.jpg"
       fluid-grow alt="Fluid-Grow image" />
 
 

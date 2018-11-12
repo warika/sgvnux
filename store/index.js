@@ -11,7 +11,7 @@ const createStore = () => {
           thaidescription:' คิ้วอลูมิเนียม SUCCESS ใช้สำหรับงานตบแต่งขอบกระเบื้อง ให้มีความสวยงาม และป้องกันการแตกร้าวของรอยต่อขอ กระเบื้อง มีอายุการใช้งานยาวนาน เหมาะสำหรับ งานภายนอกและภายในอาคาร ที่ต้องการความหรูหราและคงทนถาวร ',
           images: {
             slides: [
-              {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/B20.jpg', text: ''},
+              {src: 'https://assets.sgvthailand.com/supgangvarl/image/productphoto/B20.jpg', text: ''},
             ]
           },
           lengths: ['2000'],
@@ -63,7 +63,7 @@ const createStore = () => {
           thaidescription:'จมูกบันไดอลูมิเนียม ใช้กับบันไดทั่วไปที่เน้นความคลาสสิค คงทนถาวร ทนทุกสภาพ ไม่ว่าจะเป็นแสงแดดเหมาะสำหรับงานภายในและภายนอกที่ต้องการความหรูหรา เป็นสินค้าที่ได้รับความนิยมมาก',
           images: {
             slides: [
-              {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/L50(ALU).jpg', text: ''}
+              {src: 'https://assets.sgvthailand.com/supgangvarl/image/productphoto/L50(ALU).jpg', text: ''}
             ]
           },
           lengths: ['2000, 2500'],
@@ -115,7 +115,7 @@ const createStore = () => {
           thaidescription:'SUCCESS เป็นผู้นำด้านคิ้วพีวีซีใช้สำหรับตขอบกระเบื้องให้มีความสวยงาม และป้องกันการแตกร้าวของรอยต่อขอบกระเบื้อง คิ้วแบบไม่เคลือบ UV ลักษณะเป็นคิ้วผิวด้าน ราคาประหยัดกว่าแบบเคลือบ ได้แก่ สินค้ารุ่น G30, D30, F40, และ W60',
           images: {
             slides: [
-              {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/G30.jpg', text: ''}
+              {src: 'https://assets.sgvthailand.com/supgangvarl/image/productphoto/G30.jpg', text: ''}
             ]
           },
           lengths: ['2000'],
@@ -205,7 +205,7 @@ const createStore = () => {
         thaidescription:'SUCCESS เป็นผู้นำด้านคิ้วพีวีซีใช้สำหรับตขอบกระเบื้องให้มีความสวยงาม และป้องกันการแตกร้าวของรอยต่อขอบกระเบื้อง  คิ้วแบบเคลือบ UV เป็นนวัตกรรมการเคลือบผิวด้วยแสงอัลตร้าไวโอเลต ผิวมีความมันวาว ทั้งยังไม่เกิดคราบเชื้อรา ได้แก่ สินค้ารุ่น U30, U40, U60 และ UCD',
         images: {
           slides: [
-            {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/U40.jpg', text: ''}
+            {src: 'https://assets.sgvthailand.com/supgangvarl/image/productphoto/U40.jpg', text: ''}
 
           ]
         },
@@ -294,7 +294,7 @@ const createStore = () => {
           thaidescription:' ผลิตจาก PVC เกรด A ใช้เผื่อปิดขอบบันได ป้องกันไม่ให้ขอบบันไดบิ่น หรือ แตก ทั้งช่วยป้องกันการลื่น และสะดุดล้มในขณะขึ้นลง บันได  เป็นผลิตภัณฑ์มีความคงทนและยืดหยุ่นสูง ชิ้นงานเงางาม ทำความสะอาดง่ายเมื่อติดตั้งเสร็จ มีหลายขนาดให้เลือกใช้ ',
           images: {
             slides: [
-              {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/L38.jpg', text: ''}
+              {src: 'https://assets.sgvthailand.com/supgangvarl/image/productphoto/L38.jpg', text: ''}
 
             ]
           },
@@ -433,7 +433,7 @@ const createStore = () => {
           thaidescription:'บัวเชิงผนัง สามารถติดตั้งง่ายด้วยกาวตะปู มีทั้งแบบสีพื้น ราคาประหยัด และแบบเคลือบลามิเนตลายไม้',
           images: {
             slides: [
-              {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/BUL.jpg', text: ''}
+              {src: 'https://assets.sgvthailand.com/supgangvarl/image/productphoto/BUL.jpg', text: ''}
 
             ]
           },
@@ -482,7 +482,7 @@ const createStore = () => {
           thaidescription:'    เซาะร่อง เป็นผลิตภัณฑ์ พีวีซี เกรด A ช่วยให้ร่องที่มีแนวตรง สวยงามกว่าการเซาะร่องด้วยมือ ช่วยป้องกันการแตกร้าวของปูนใต้คานทุกๆ ช่อง 4 เมตร หรือ 6 เมตร  สามารถใช้สีทาทับที่ชิ้นงานได้ ทนความยืดหยุ่นได้ดี',
           images: {
             slides: [
-              {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/JC.jpg', text: ''},
+              {src: 'https://assets.sgvthailand.com/supgangvarl/image/productphoto/JC.jpg', text: ''},
 
             ]
           },
@@ -599,7 +599,7 @@ const createStore = () => {
           thaidescription:'       เซี้ยม พีวีซี SUCCESS เป็นผลิตภัณฑ์ที่มีความยืดหยุ่นและคงทนสูง ใช้ในงานจับมุมแนวฉาบปูนเพื่อให้ได้แนวตรง และฉาบปูนเรียบที่สวยงาม (ประหยัดปูนในการฉาบ) ประหยัดเวลาทำงาน และช่วยลดต้นทุนงาน',
           images: {
             slides: [
-              {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/CT6.jpg', text: ''},
+              {src: 'https://assets.sgvthailand.com/supgangvarl/image/productphoto/CT6.jpg', text: ''},
 
             ]
           },
@@ -652,7 +652,7 @@ const createStore = () => {
           thaidescription:' สามเหลี่ยมลบมุม  เป็นผลิตภัณฑ์ที่ใช้ในการก่อสร้าง เช่น งานลบมุมเสา งานแนวขอบทางเท้า คันทางถนน สามารถตอกตะปูและติดกาวยางหรือกาวร้อนที่แนบไม้ได้ งานที่ออกมาจะได้มุมสวยกว่าไม้สามเหลี่ยมธรรมดา ใช้งานได้หลายครั้งกว่าไม้สามเหลี่ยม  .ลดต้นทุนในด้านวัสดุ และเวลาการทำงาน',
           images: {
             slides: [
-              {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/CF.jpg', text: ''},
+              {src: 'https://assets.sgvthailand.com/supgangvarl/image/productphoto/CF.jpg', text: ''},
 
             ]
           },
@@ -717,7 +717,7 @@ const createStore = () => {
           thaidescription:'แผ่นกันลื่นเอนกประสงค์ ลดอันตรายของพื้นผิวที่เปียก วางมุมในก็สวยงามโดดเด่น เช่น ห้องน้ำ หน้องครัว เฉลียงบ้าน แต่งมุมสวยในสวน สนามหญ้า สระว่ายน้ำ ช่วยลดอุบัติเหตุโดยเฉพาะในเด็กและผู้สูงอายุ',
           images: {
             slides: [
-              {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/SM.jpg', text: ''},
+              {src: 'https://assets.sgvthailand.com/supgangvarl/image/productphoto/SM.jpg', text: ''},
 
             ]
           },
@@ -766,7 +766,7 @@ const createStore = () => {
           thaidescription:'สำหรับใช้เก็บรวบรวม สายโทรศัพท์ สายไฟ หรืออุปกรณ์อิเล็กทรอนิกส์ต่างๆ ลักษณะทรงสี่เหลี่ยม สามารถเดินตามขอบมุมผนัง ทั้งด้านบนและล่าง',
           images: {
             slides: [
-              {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/TD.jpg', text: ''},
+              {src: 'https://assets.sgvthailand.com/supgangvarl/image/productphoto/TD.jpg', text: ''},
 
             ]
           },
@@ -843,7 +843,7 @@ const createStore = () => {
             thaidescription:'สำหรับใช้เก็บรวบรวม สายโทรศัพท์ สายไฟ หรืออุปกรณ์อิเล็กทรอนิกส์ต่างๆ ลักษณะทรสี่เหลี่ยม สามารถเดินตามขอบมุมผนัง ทั้งด้านบนและล่าง รางไฟลักษณะพิเศษแบ่งได้สองช่อง สามารถแบ่งหมวดหมู่ตามประเภทสายได้ ',
             images: {
               slides: [
-                {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/ETM.jpg', text: ''},
+                {src: 'https://assets.sgvthailand.com/supgangvarl/image/productphoto/ETM.jpg', text: ''},
 
                 ]
               },
@@ -908,7 +908,7 @@ const createStore = () => {
             thaidescription:'รางเก็บสายไฟทรงสี่เหลี่ยม ด้านข้างมีรูโปร่ง แบ่งย่อยเป็นช่องๆ เพื่อความสะดวกในการแยกสายเข้าตามจุดต่างๆ ในการใช้งาน เหมาะสำหรับเดินสายไฟที่ต้องใช้แยกตามจุดต่างๆ หลายจุด ',
             images: {
               slides: [
-                {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/ETD.jpg', text: ''},
+                {src: 'https://assets.sgvthailand.com/supgangvarl/image/productphoto/ETD.jpg', text: ''},
 
               ]
             },
@@ -1006,7 +1006,7 @@ const createStore = () => {
             thaidescription:'สำหรับใช้เก็บรวบรวม สายโทรศัพท์ สายไฟ หรืออุปกรณ์อิเล็กทรอนิกส์ต่างๆ ลักษณะทรสี่เหลี่ยม ติดตั้งตามขอบมุมผนังได้',
             images: {
               slides: [
-                {src: 'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/ETB.jpg', text: ''},
+                {src: 'https://assets.sgvthailand.com/supgangvarl/image/productphoto/ETB.jpg', text: ''},
 
               ]
             },

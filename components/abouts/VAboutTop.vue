@@ -37,7 +37,7 @@ export default {
         {thai:'เกี่ยวกับเรา'}
       ],
       items:[
-        { photo:'https://supgangvarl.sgp1.digitaloceanspaces.com/supgangvarl/image/productphoto/aboutus.jpg'}
+        { photo:'https://assets.sgvthailand.com/supgangvarl/image/productphoto/aboutus.jpg'}
       ]
     }
   },
