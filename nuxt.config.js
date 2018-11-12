@@ -8,7 +8,7 @@ module.exports = {
   */
   head: {
     htmlAttrs: {
-      lang: 'th-TH',
+      lang: 'th-TH'
     },
     title: pkg.name,
     meta: [
