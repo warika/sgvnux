@@ -28,25 +28,7 @@ export default {
       { name: 'image', content: 'https://assets.sgvthailand.com/supgangvarl/image/header/picforgoogle.jpg' },
       { itemprop: 'name', content: 'ทรัพย์กังวาล ผู้ผลิตวัสดุก่อสร้าง PVC มากว่า 20 ปี'},
       { itemprop: 'description' ,content: 'ดำเนินการผลิตสินค้า บัว เซี้ยม เซาะร่อง จมูกบันได บัว รางสายไฟ ซึ่งผลิตมาจาก PVC มากว่า 20 ปี'},
-      { itemprop: 'image' ,content: 'https://assets.sgvthailand.com/supgangvarl/image/header/picforgoogle.jpg'},
-
-      // { name: 'og:title' , content: 'ทรัพย์กังวาล ผู้ผลิตวัสดุก่อสร้าง PVC มากว่า 20 ปี'},
-      // { name: 'og:description' , content: 'ดำเนินการผลิตสินค้า บัว เซี้ยม เซาะร่อง จมูกบันได บัว รางสายไฟ ซึ่งผลิตมาจาก PVC มากว่า 20 ปี'},
-      // { name: 'og:image' , content: 'https://assets.sgvthailand.com/supgangvarl/image/header/picforgoogle.jpg'},
-      // { name: 'og:url' , content: 'https://www.sgvthailand.com/'},
-      // { name: 'og:site_name' , content: 'sgvthailand'},
-      // { name: 'og:locale' , content: 'th_TH'},
-      // { name: 'fb:admins' , content: '1350677818365777'},
-      // { name: 'og:type' , content: 'website'},
-
-      { property: 'og:title' , content: 'ทรัพย์กังวาล ผู้ผลิตวัสดุก่อสร้าง PVC มากว่า 20 ปี'},
-      { property: 'og:description' , content: 'ดำเนินการผลิตสินค้า บัว เซี้ยม เซาะร่อง จมูกบันได บัว รางสายไฟ ซึ่งผลิตมาจาก PVC มากว่า 20 ปี'},
-      { property: 'og:image' , content: 'https://assets.sgvthailand.com/supgangvarl/image/header/picforgoogle.jpg'},
-      { property: 'og:url' , content: 'https://www.sgvthailand.com/'},
-      { property: 'og:site_name' , content: 'sgvthailand'},
-      { property: 'og:locale' , content: 'th_TH'},
-      { property: 'fb:admins' , content: '1350677818365777'},
-      { property: 'og:type' , content: 'website'}
+      { itemprop: 'image' ,content: 'https://assets.sgvthailand.com/supgangvarl/image/header/picforgoogle.jpg'}
     ]
   },
   data(){
