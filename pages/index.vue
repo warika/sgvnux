@@ -19,6 +19,7 @@ export default {
     titleTemplate: 'คิ้ว บัว เซี้ยม เซาะร่อง จมูกบันได รางสายไฟ ราคาดีที่สุด',
     meta: [
       { name: 'google-site-verification', content: 'XAfsx_ynlZQ5nCCKntZeP6bHo27Veic11fHqiUY_a6Q' },
+      { name: 'keywords', content: 'บัวผนัง, ขอบกระเบื้อง,จมูกบันได, เซี้ยม, เซาะร่อง' },
       { name: 'description', content: 'คิ้ว บัว เซี้ยม เซาะร่อง จมูกบันได รางสายไฟ ผลิตในไทย 100% แข็งแรง ทนทาน เงางาม สดุดตา' },
       { name: 'image', content: 'https://assets.sgvthailand.com/supgangvarl/image/header/picforgoogle.jpg' },
       { itemprop: 'name', content: 'คิ้ว บัว เซี้ยม เซาะร่อง จมูกบันได รางสายไฟ ราคาดีที่สุด'},

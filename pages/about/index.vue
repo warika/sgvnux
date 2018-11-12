@@ -25,6 +25,7 @@ export default {
     meta: [
 
       { name: 'description', content: 'ดำเนินการผลิตสินค้า บัว เซี้ยม เซาะร่อง จมูกบันได บัว รางสายไฟ ซึ่งผลิตมาจาก PVC มากว่า 20 ปี' },
+      { name: 'keywords', content: 'บัวผนัง, ขอบกระเบื้อง,จมูกบันได, เซี้ยม, เซาะร่อง' },
       { name: 'image', content: 'https://assets.sgvthailand.com/supgangvarl/image/header/picforgoogle.jpg' },
       { itemprop: 'name', content: 'ทรัพย์กังวาล ผู้ผลิตวัสดุก่อสร้าง PVC มากว่า 20 ปี'},
       { itemprop: 'description' ,content: 'ดำเนินการผลิตสินค้า บัว เซี้ยม เซาะร่อง จมูกบันได บัว รางสายไฟ ซึ่งผลิตมาจาก PVC มากว่า 20 ปี'},

@@ -3,31 +3,50 @@
     <div class="table-responsive " style="margin-bottom: -20px;">
       <table class="table table-borderless table-sm">
         <thead>
-          <tr>
-            <td v-for="(item, i) in items" class="text-center">
-              <!-- <router-link
-                v-if="item.to"
-                :to="item.to"
-                :key="i" tag="a"
-                active-class="text-primary">
-                <VSocial :type="item.icon" :link="true"></VSocial><br>
-                {{item.text}}
-              </router-link> -->
-
+          <tr class="text-center">
+            <td >
               <nuxt-link
-                v-if="item.to"
-                :to="item.to"
-                :key="i" tag="a"
+                to="/"
+                tag="a"
                 active-class="text-primary">
-                <VSocial :type="item.icon" :link="true"></VSocial><br>
-                <!-- <small>{{item.text}}</small> -->
+                <fa :icon="['fas', 'home']" class="text-light"/><br>
+                <small class="text-primary">หน้าหลัก</small>
               </nuxt-link>
+            </td>
 
+            <td>
+              <nuxt-link
+                to="/product"
+                tag="a"
+                active-class="text-primary">
+                <fa :icon="['fas', 'box-open']" class="text-light"/><br>
+                <small class="text-primary">สินค้า</small>
+              </nuxt-link>
+            </td>
 
-              <span v-else>
-                <VSocial :type="item.icon" :link="true"></VSocial><br>
-                <!-- <small>{{item.text}}</small> -->
-              </span>
+            <td @click="gotoFacebook">
+              <fa :icon="['fab', 'facebook-f']" class="text-light"/><br>
+              <small class="text-primary">Facebook</small>
+            </td>
+
+            <td @click="gotoLine">
+              <fa :icon="['fab', 'line']" class="text-light"/><br>
+              <small class="text-primary">Line</small>
+            </td>
+
+            <td @click="gotoPhone">
+              <fa :icon="['fas', 'phone']" class="text-light"/><br>
+              <small class="text-primary">โทรเลย</small>
+            </td>
+
+            <td>
+              <nuxt-link
+                to="/contact"
+                tag="a"
+                active-class="text-primary">
+                <fa :icon="['fas', 'map-marker-alt']" class="text-light"/><br>
+                <small class="text-primary">ติดต่อ</small>
+              </nuxt-link>
             </td>
           </tr>
         </thead>
@@ -49,6 +68,17 @@ export default{
         {text:'Facebook', icon:'facebook'},
         {text:'location', icon:'location'}
       ]
+    }
+  },
+  methods: {
+    gotoFacebook() {
+      window.open('https://www.facebook.com/Supgangvarl-1350677818365777/')
+    },
+    gotoLine() {
+      window.open('https://line.me/ti/p/SXYCePOwO9')
+    },
+    gotoPhone() {
+      window.open('tel:+66869998382')
     }
   },
   components: {

@@ -9,7 +9,7 @@
      satisfy their demand. In Supgangvarl, we believe in providing the best quality products for our customers,
      we have our inspection equipment for make sure that our product is durable and long lasting. </p> -->
     <b-row >
-      <b-col v-for="(quality, i) in qualities" :key="i" md="12" sm="6">
+      <b-col v-for="(quality, i) in qualities" :key="i" md="3" cols="6">
         <b-card-group deck >
         <b-card
                 :img-src="quality.image"
