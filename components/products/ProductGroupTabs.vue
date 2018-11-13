@@ -11,18 +11,25 @@
             <b-row>
               <b-col md="6" xs="12">
                 <ProductGroupImage :images="group.images.slides" class="mb-1"></ProductGroupImage>
+                <div >
+                  <nuxt-link :to="'/product/' + group.name" tag="button" class="btn btn-info">
+                    รายละเอียด
+                  </nuxt-link>
+                </div>
+
               </b-col >
+
               <b-col md="6" xs="12">
                 <div >
                   <small>{{group.thaidescription}}</small>
                 </div>
               </b-col>
             </b-row>
-            <b-row>
+            <!-- <b-row>
               <b-col lg="12" md="12"  xs="12" class="mb-2">
                 <ProductGroupModel :models="group.models"></ProductGroupModel>
               </b-col>
-            </b-row>
+            </b-row> -->
           </b-card-body>
         </b-card>
       </b-col >
@@ -35,6 +42,11 @@ import ProductGroupModel from './ProductGroupModel.vue'
 import ProductGroupImage from './ProductGroupImage.vue'
 
 export default {
+  data(){
+    return{
+
+    }
+  },
   computed: {
     groups(){
       return this.$store.state.groups

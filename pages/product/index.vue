@@ -1,37 +1,11 @@
 <template lang="html">
 <b-container>
-
-
-
-
-    <!-- <b-card
-    overlay
-    img-src="bgproduct.jpg"
-    img-alt="Card Image"
-    text-variant="black">
-    <b-row style="height:100%;" align-v="end">
-      <b-col class="d-none d-md-block">
-        <b-card text-variant="dark" style="background-color: rgba(255, 255, 255, 0.7);">
-          <h1>
-            OUR PRODUCT
-          </h1>
-        </b-card>
-    </b-col>
-  </b-row>
-  </b-card> -->
-
-
-      <b-img
-      class="d-none d-md-block mb-3"
-      src="https://assets.sgvthailand.com/supgangvarl/image/header/headproduct.jpg"
-      fluid-grow alt="Fluid-Grow image" />
-
-
-    <!-- <v-header title="Product" subtitle="Make Your Home Better ."></v-header> -->
-    <ProductGroupTabs></ProductGroupTabs>
-
-
-
+  <b-img
+  class="d-none d-md-block mb-3"
+  src="https://assets.sgvthailand.com/supgangvarl/image/header/headproduct.jpg"
+  fluid-grow alt="Fluid-Grow image" />
+<!-- <v-header title="Product" subtitle="Make Your Home Better ."></v-header> -->
+<ProductGroupTabs></ProductGroupTabs>
 </b-container>
 </template>
 

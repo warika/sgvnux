@@ -11,7 +11,8 @@ const createStore = () => {
           thaidescription:' คิ้วอลูมิเนียม SUCCESS ใช้สำหรับงานตบแต่งขอบกระเบื้อง ให้มีความสวยงาม และป้องกันการแตกร้าวของรอยต่อขอ กระเบื้อง มีอายุการใช้งานยาวนาน เหมาะสำหรับ งานภายนอกและภายในอาคาร ที่ต้องการความหรูหราและคงทนถาวร ',
           images: {
             slides: [
-              {src: 'https://assets.sgvthailand.com/supgangvarl/image/productphoto/B20.jpg', text: ''},
+              {src: '/product/b20.jpg', text: 'ss'},
+              {src: '/product/b20drawing.jpg', text: ''}
             ]
           },
           lengths: ['2000'],
@@ -29,9 +30,9 @@ const createStore = () => {
               images: {
                 cover: 'img/portfolio/01-thumbnail.png',
                 details: [
-                  'img/portfolio/01-thumbnail.png',
-                  'img/portfolio/01-thumbnail.png',
-                  'img/portfolio/01-thumbnail.png'
+                  '/product/b20.jpg',
+                  '/product/b20drawing.jpg'
+
                 ],
                 footer: 'img/portfolio/01-thumbnail.png'
               },
@@ -45,9 +46,8 @@ const createStore = () => {
               images: {
                 cover: 'img/portfolio/01-thumbnail.png',
                 details: [
-                  'img/portfolio/01-thumbnail.png',
-                  'img/portfolio/01-thumbnail.png',
-                  'img/portfolio/01-thumbnail.png'
+                  '/product/b60.jpg',
+                  '/product/b60drawing.jpg'
                 ],
                 footer: 'img/portfolio/01-thumbnail.png'
               },
@@ -63,7 +63,9 @@ const createStore = () => {
           thaidescription:'จมูกบันไดอลูมิเนียม ใช้กับบันไดทั่วไปที่เน้นความคลาสสิค คงทนถาวร ทนทุกสภาพ ไม่ว่าจะเป็นแสงแดดเหมาะสำหรับงานภายในและภายนอกที่ต้องการความหรูหรา เป็นสินค้าที่ได้รับความนิยมมาก',
           images: {
             slides: [
-              {src: 'https://assets.sgvthailand.com/supgangvarl/image/productphoto/L50(ALU).jpg', text: ''}
+              {src: '/product/l38al.jpg', text: 'ss'},
+              {src: '/product/l38aldrawing.jpg', text: ''},
+              {src: '/product/stairalu2.jpg', text: ''}
             ]
           },
           lengths: ['2000, 2500'],
@@ -81,9 +83,8 @@ const createStore = () => {
               images: {
                 cover: 'img/portfolio/01-thumbnail.png',
                 details: [
-                  'img/portfolio/01-thumbnail.png',
-                  'img/portfolio/01-thumbnail.png',
-                  'img/portfolio/01-thumbnail.png'
+                  '/product/l38al.jpg',
+                  '/product/l38aldrawing.jpg'
                 ],
                 footer: 'img/portfolio/01-thumbnail.png'
               },
@@ -97,9 +98,8 @@ const createStore = () => {
               images: {
                 cover: 'img/portfolio/01-thumbnail.png',
                 details: [
-                  'img/portfolio/01-thumbnail.png',
-                  'img/portfolio/01-thumbnail.png',
-                  'img/portfolio/01-thumbnail.png'
+                  '/product/l50al.jpg',
+                  '/product/l50aldrawing.jpg'
                 ],
                 footer: 'img/portfolio/01-thumbnail.png'
               },
@@ -205,7 +205,9 @@ const createStore = () => {
         thaidescription:'SUCCESS เป็นผู้นำด้านคิ้วพีวีซีใช้สำหรับตขอบกระเบื้องให้มีความสวยงาม และป้องกันการแตกร้าวของรอยต่อขอบกระเบื้อง  คิ้วแบบเคลือบ UV เป็นนวัตกรรมการเคลือบผิวด้วยแสงอัลตร้าไวโอเลต ผิวมีความมันวาว ทั้งยังไม่เกิดคราบเชื้อรา ได้แก่ สินค้ารุ่น U30, U40, U60 และ UCD',
         images: {
           slides: [
-            {src: 'https://assets.sgvthailand.com/supgangvarl/image/productphoto/U40.jpg', text: ''}
+            {src: '/product/u40.jpg', text: 'ss'},
+            {src: '/product/u40drawing.jpg', text: ''},
+            {src: '/product/trim2.jpg', text: ''}
 
           ]
         },
